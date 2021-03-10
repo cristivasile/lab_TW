@@ -1,0 +1,112 @@
+.container{
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.car{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    width:20%;
+    border:2px solid rgba(25, 51, 77, 0.75);
+    background-color:rgba(245,245,245,0.7s5);
+    box-shadow: .5vw .5vw rgba(25, 51, 77, 0.75 );
+    margin:1%;
+}
+.car-icon{
+    float:left;
+    position: relative;
+    width:96.68%;
+    padding-bottom : 96.68%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color:rgba(25, 51, 77, 0.75 );
+}
+
+.car-title{
+    margin-top:1%;
+    margin-bottom:0%;
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.15vw;
+}
+.car-content{
+    margin-top:5%;
+    font-size:1vw;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom:0%;
+}
+
+.bott{
+    margin-bottom:7%;
+}
+
+#c1{
+    background-image:url(Images/car1.jpg);
+}
+
+#c2{
+    background-image:url(Images/car2.jpg);
+}
+
+#c3{
+    background-image:url(Images/car1.jpg);
+}
+
+#c4{
+    background-image:url(Images/car1.jpg);
+}
+
+#c5{
+    background-image:url(Images/car1.jpg);
+}
+
+#c6{
+    background-image:url(Images/car1.jpg);
+}
+
+#c7{
+    background-image:url(Images/car1.jpg);
+}
+
+#c8{
+    background-image:url(Images/car1.jpg);
+}
+
+#c9{
+    background-image:url(Images/car1.jpg);
+}
+
+#c10{
+    background-image:url(Images/car1.jpg);
+}
+
+#c11{
+    background-image:url(Images/car1.jpg);
+}
+
+@media (max-width: 1280px) {
+    .car{
+        width:28%;
+    }
+    .car-title{
+        font-size: 1.8vw;
+    }   
+    .car-content{
+        font-size: 1.65vw;
+    }
+}
+@media (max-width: 768px) {
+   .car{
+       width:40%;
+   }
+   .car-title{
+    font-size: 2.55vw;
+    }   
+    .car-content{
+        font-size: 2.30vw;
+    }
+}
