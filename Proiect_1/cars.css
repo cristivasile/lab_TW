@@ -11,7 +11,7 @@
     text-align: center;
     width:20%;
     border:2px solid rgba(25, 51, 77, 0.75);
-    background-color:rgba(245,245,245,0.7s5);
+    background-color:rgba(245,245,245,0.75);
     box-shadow: .5vw .5vw rgba(25, 51, 77, 0.75 );
     margin:1%;
 }
@@ -32,12 +32,18 @@
     margin-bottom:0%;
     font-family: 'Roboto Mono', monospace;
     font-size:1.15vw;
+    margin-left:2%;
 }
 .car-content{
     margin-top:5%;
     font-size:1vw;
     font-family: 'Roboto Mono', monospace;
     margin-bottom:0%;
+}
+
+.reducere{
+    text-decoration: line-through;
+    color:red;
 }
 
 .bott{
@@ -53,39 +59,39 @@
 }
 
 #c3{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car3.jpg);
 }
 
 #c4{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car4.jpg);
 }
 
 #c5{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car5.jpg);
 }
 
 #c6{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car6.jpg);
 }
 
 #c7{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car7.jpg);
 }
 
 #c8{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car8.jpg);
 }
 
 #c9{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car9.jpg);
 }
 
 #c10{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car10.jpg);
 }
 
 #c11{
-    background-image:url(Images/car1.jpg);
+    background-image:url(Images/car11.jpg);
 }
 
 @media (max-width: 1280px) {

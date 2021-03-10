@@ -160,6 +160,18 @@ body {
     .container{
         border-radius:0px;
     }
+
+    .subtitle{
+        text-align:center;
+        border-left:0px;
+        border-bottom: 3px solid rgba(25, 51, 77, 0.25 );
+        padding-bottom:1%;
+        font-size:3vw;
+    }
+
+    .content{
+        font-size:2vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -182,4 +194,19 @@ body {
         width:96%;
     }
 
+    .subtitle{
+        font-size:4vw;
+    }
+
+    .content{
+        font-size:3vw;
+    }
+
+    .title{
+        font-size:7vw;
+    }
+
+    .nav-element{
+        font-size:4.5vw;
+    }
 }
