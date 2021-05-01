@@ -1,0 +1,169 @@
+.title{
+    margin-top:9%;
+}
+
+input{
+    width: 34%;
+}
+
+.button{
+    margin-top:1.5%;
+    display:inline-block;
+    border: none;
+    color: white;
+    padding: 2% 7% 2% 7%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover{
+    transform:scale(1.15);
+}
+
+.logoutButton{
+    width:10%;
+    height:auto;
+}
+
+.logoutButton:hover{
+    transform:scale(1.15);
+}
+
+.deleteButton:hover{
+    transform:scale(1.15);
+}
+
+.editButton{
+    position:absolute;
+    left:73%;
+    top:2.5%;
+    width:10%;
+}
+
+.editButton:hover{
+    transform:scale(1.15);
+}
+
+
+.deleteButton{
+    position:absolute;
+    left:85%;
+    top:2.5%;
+    width:10%;
+}
+
+.insertMenu{
+    display:flex;
+    position:fixed;
+    flex-direction:column;
+    padding:1%;
+    left:-4%;
+    top:50%;
+    background-color:rgba(245,245,245,0.75);
+    border: .25vw dashed rgba(25, 51, 77, 0.75);
+}
+
+.insertMenu:hover{
+    transform: translate(50%);
+}
+
+.login{
+    background-color: #fc352b;
+    float:left;
+    margin-left:30%;
+}
+
+.add{
+    background-color:#4CAF50;
+    float:right;
+
+}
+
+.container{
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.logTab{
+    width:27.5%;
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    padding:1%;
+    top:3%;
+    background-color:rgba(245,245,245,0.75);
+    border: .25vw dashed rgba(25, 51, 77, 0.75);
+}
+
+.car{
+    display:flex;
+    position:relative;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    width:20%;
+    border:2px solid rgba(25, 51, 77, 0.75);
+    background-color:rgba(245,245,245,0.75);
+    box-shadow: .5vw .5vw rgba(25, 51, 77, 0.75 );
+    margin:1%;
+}
+.car-icon{
+    float:left;
+    position: relative;
+    width:96.68%;
+    padding-bottom : 96.68%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color:rgba(25, 51, 77, 0.75 );
+}
+
+.car-title{
+    margin-top:1%;
+    margin-bottom:0%;
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.15vw;
+    margin-left:2%;
+}
+.car-content{
+    margin-top:5%;
+    font-size:1vw;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom:0%;
+}
+
+.reducere{
+    text-decoration: line-through;
+    color:red;
+}
+
+.bott{
+    margin-bottom:7%;
+}
+
+@media (max-width: 1280px) {
+    .car{
+        width:28%;
+    }
+    .car-title{
+        font-size: 1.8vw;
+    }   
+    .car-content{
+        font-size: 1.65vw;
+    }
+}
+@media (max-width: 768px) {
+   .car{
+       width:40%;
+   }
+   .car-title{
+    font-size: 2.55vw;
+    }   
+    .car-content{
+        font-size: 2.30vw;
+    }
+}
