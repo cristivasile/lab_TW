@@ -65,7 +65,7 @@ function tryLogin(){
             function search(item){
                 if(item.name==user&&OK==0){
                     OK=1;
-
+                    
                     if(item.pass!=password){
                     window.alert("Parola incorecta!");
                     }

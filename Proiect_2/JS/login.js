@@ -1,19 +1,17 @@
 var body = document.getElementsByTagName("body")[0];
-window.onload = function pageLoad(){
-    let logTab = document.createElement("div");
+
+    window.onload = function pageLoad(){
+    var logTab = document.createElement("div");
     logTab.classList.add("logTab");
     logTab.id = "logTab";
     
     body.appendChild(logTab);
-    }
-    
+
+      
     fetch('http:/localhost:3000/logged', {
         method: 'get'
     }).then((response)=> {
         response.json().then((logged)=>{
-
-            let logTab = document.getElementById("logTab");
-
             if(logged.state==0){
             logTab.style.left="65.5%";
 
@@ -157,6 +155,8 @@ window.onload = function pageLoad(){
     })
 
 
+    }
+  
     function logUser(item){
         var loggedState = {
             state: 1,

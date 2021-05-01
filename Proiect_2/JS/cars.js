@@ -143,7 +143,7 @@ function addCar(){
         },
         body: JSON.stringify(newCar)
     }).then(function(response) {
-        window.location.reload();
+       window.location.reload();
     })
 
     console.log(newCar);

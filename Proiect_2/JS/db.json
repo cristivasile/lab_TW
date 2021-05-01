@@ -1,116 +1,111 @@
 {
-  "cars": [
-    {
-      "id": 1,
-      "name": "Ford Mondeo Mk3",
-      "price": "1,850,000",
-      "year": "2001",
-      "odometer": "273568",
-      "img": "./Images/car1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Nissan Qashqai II",
-      "price": "14,480",
-      "year": "2015",
-      "odometer": "79995",
-      "img": "./Images/car2.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Audi TT 8J",
-      "price": "8,900",
-      "year": "2007",
-      "odometer": "169000",
-      "img": "./Images/car3.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Audi A4 Avant B7",
-      "price": "5,199",
-      "year": "2008",
-      "odometer": "185000",
-      "img": "./Images/car4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Mercedes-Benz C-Class W204",
-      "price": "11,990",
-      "year": "2012",
-      "odometer": "128100",
-      "img": "./Images/car5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Volkswagen Golf VII",
-      "price": "15,000",
-      "year": "2017",
-      "odometer": "92400",
-      "img": "./Images/car6.jpg"
-    },
-    {
-      "id": 7,
-      "name": "BMW X3 F25",
-      "price": "19,990",
-      "year": "2014",
-      "odometer": "128603",
-      "img": "./Images/car7.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Porsche 911 Speedster 991 II",
-      "price": "350,750",
-      "year": "2019",
-      "odometer": "10",
-      "img": "./Images/car8.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Volkswagen LT35",
-      "price": "6,750",
-      "year": "2006",
-      "odometer": "113608",
-      "img": "./Images/car9.jpg"
-    },
-    {
-      "id": 10,
-      "name": "BMW 4 Series Gran Coupe F36",
-      "price": "20,450",
-      "year": "2016",
-      "odometer": "104903",
-      "img": "./Images/car10.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Volkswagen Tiguan I",
-      "price": "10,990",
-      "year": "2011",
-      "odometer": "94773",
-      "img": "./Images/car11.jpg"
-    },
-    {
-      "name": "Chevrolet Corvette C8",
-      "price": "63580",
-      "year": "2021",
-      "odometer": "523",
-      "img": "https://media4.s-nbcnews.com/j/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.fit-760w.jpg",
-      "id": 12
+    "cars": [
+        {
+            "id": 1,
+            "name": "Ford Mondeo Mk3",
+            "price": "1,850,000",
+            "year": "2001",
+            "odometer": "273568",
+            "img": "./Images/car1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Nissan Qashqai II",
+            "price": "14,480",
+            "year": "2015",
+            "odometer": "79995",
+            "img": "./Images/car2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Audi TT 8J",
+            "price": "8,900",
+            "year": "2007",
+            "odometer": "169000",
+            "img": "./Images/car3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Audi A4 Avant B7",
+            "price": "5,199",
+            "year": "2008",
+            "odometer": "185000",
+            "img": "./Images/car4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Mercedes-Benz C-Class W204",
+            "price": "11,990",
+            "year": "2012",
+            "odometer": "128100",
+            "img": "./Images/car5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Volkswagen Golf VII",
+            "price": "15,000",
+            "year": "2017",
+            "odometer": "92400",
+            "img": "./Images/car6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "BMW X3 F25",
+            "price": "19,990",
+            "year": "2014",
+            "odometer": "128603",
+            "img": "./Images/car7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Porsche 911 Speedster 991 II",
+            "price": "350,750",
+            "year": "2019",
+            "odometer": "10",
+            "img": "./Images/car8.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Volkswagen LT35",
+            "price": "6,750",
+            "year": "2006",
+            "odometer": "113608",
+            "img": "./Images/car9.jpg"
+        },
+        {
+            "id": 10,
+            "name": "BMW 4 Series Gran Coupe F36",
+            "price": "20,450",
+            "year": "2016",
+            "odometer": "104903",
+            "img": "./Images/car10.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Volkswagen Tiguan I",
+            "price": "10,990",
+            "year": "2011",
+            "odometer": "94773",
+            "img": "./Images/car11.jpg"
+        },
+        {
+            "name": "Chevrolet Corvette C8",
+            "price": "63580",
+            "year": "2021",
+            "odometer": "523",
+            "img": "https://media4.s-nbcnews.com/j/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.fit-760w.jpg",
+            "id": 12
+        }
+    ],
+    "admins": [
+        {
+            "name": "cristi",
+            "pass": "nelu",
+            "id": 1
+        }
+    ],
+    "logged": {
+        "state": 1,
+        "name": "cristi"
     }
-  ],
-  "admins": [
-    {
-      "name": "cristi",
-      "pass": "nelu",
-      "id": 1
-    },
-    {
-      "name": "cristi2",
-      "pass": "nelu",
-      "id": 2
-    }
-  ],
-  "logged": {
-    "state": 1,
-    "name": "cristi"
-  }
 }
