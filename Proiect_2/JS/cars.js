@@ -5,6 +5,12 @@
 
 var body = document.getElementsByTagName("body")[0];
 
+let deleted = document.getElementById("deleted");
+deleted.classList.remove("title");
+deleted.removeAttribute("onclick");
+deleted.parentNode.removeChild(deleted);
+
+
 fetch('http:/localhost:3000/cars', {
     method: 'get'
 }).then((response) => {
@@ -15,6 +21,7 @@ fetch('http:/localhost:3000/cars', {
         for(let i=0 ; i < cars.length ; i++){
             
                 let carId=cars[i].id;
+                console.log(carId);
 
                 let carDiv = document.createElement("div");
                 carDiv.classList.add("car");
@@ -81,7 +88,6 @@ fetch('http:/localhost:3000/cars', {
 })
 
 function deleteCar(carId){
-
     fetch('http://localhost:3000/cars/' + carId, {
         method: 'delete',
         headers:{

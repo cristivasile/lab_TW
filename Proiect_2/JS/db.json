@@ -89,12 +89,20 @@
             "img": "./Images/car11.jpg"
         },
         {
+            "id": 12,
             "name": "Chevrolet Corvette C8",
             "price": "63580",
             "year": "2021",
             "odometer": "523",
-            "img": "https://media4.s-nbcnews.com/j/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.fit-760w.jpg",
-            "id": 12
+            "img": "https://media4.s-nbcnews.com/j/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.fit-760w.jpg"
+        },
+        {
+            "name": "a",
+            "price": "a",
+            "year": "a",
+            "odometer": "a",
+            "img": "a",
+            "id": "82e98b25-c622-4df3-9e4f-7e423931bfa7"
         }
     ],
     "admins": [
@@ -102,10 +110,15 @@
             "name": "cristi",
             "pass": "nelu",
             "id": 1
+        },
+        {
+            "name": "admin",
+            "pass": "password",
+            "id": "718937e0-5116-4dfc-9ede-e41d60ec1131"
         }
     ],
     "logged": {
         "state": 1,
-        "name": "cristi"
+        "name": "admin"
     }
 }
