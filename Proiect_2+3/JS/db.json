@@ -1,7 +1,7 @@
 {
     "cars": [
         {
-            "id": 1,
+            "id": "134a29ec-8fde-4ba4-bce3-9ce45aaed4d6",
             "name": "Ford Mondeo Mk3",
             "price": "1,850,000",
             "year": "2001",
@@ -9,7 +9,7 @@
             "img": "./Images/car1.jpg"
         },
         {
-            "id": 2,
+            "id": "89cc8464-313c-433f-85cd-8b15b8d0b6e7",
             "name": "Nissan Qashqai II",
             "price": "14,480",
             "year": "2015",
@@ -17,7 +17,7 @@
             "img": "./Images/car2.jpg"
         },
         {
-            "id": 3,
+            "id": "344a81aa-793f-43b6-afe8-15e422152203",
             "name": "Audi TT 8J",
             "price": "8,900",
             "year": "2007",
@@ -25,7 +25,7 @@
             "img": "./Images/car3.jpg"
         },
         {
-            "id": 4,
+            "id": "1b6492da-4530-4299-acfd-cf23cf6eb652",
             "name": "Audi A4 Avant B7",
             "price": "5,199",
             "year": "2008",
@@ -33,7 +33,7 @@
             "img": "./Images/car4.jpg"
         },
         {
-            "id": 5,
+            "id": "db012092-78bd-4d7a-9796-1554b97984ab",
             "name": "Mercedes-Benz C-Class W204",
             "price": "11,990",
             "year": "2012",
@@ -41,7 +41,7 @@
             "img": "./Images/car5.jpg"
         },
         {
-            "id": 6,
+            "id": "4b53673e-c5f8-43e6-b7b5-6e1d4a43a914",
             "name": "Volkswagen Golf VII",
             "price": "15,000",
             "year": "2017",
@@ -49,7 +49,7 @@
             "img": "./Images/car6.jpg"
         },
         {
-            "id": 7,
+            "id": "f3a078e7-7bbc-41b7-ab46-dbca0bb22d5f",
             "name": "BMW X3 F25",
             "price": "19,990",
             "year": "2014",
@@ -57,7 +57,7 @@
             "img": "./Images/car7.jpg"
         },
         {
-            "id": 8,
+            "id": "9b644e69-8437-4b46-afd9-29233cf3ac17",
             "name": "Porsche 911 Speedster 991 II",
             "price": "350,750",
             "year": "2019",
@@ -65,7 +65,7 @@
             "img": "./Images/car8.jpg"
         },
         {
-            "id": 9,
+            "id": "0da4c983-acb5-478b-bc68-efee9c8627ea",
             "name": "Volkswagen LT35",
             "price": "6,750",
             "year": "2006",
@@ -73,7 +73,7 @@
             "img": "./Images/car9.jpg"
         },
         {
-            "id": 10,
+            "id": "5ffca84e-f054-4caf-a0f9-4281586425fa",
             "name": "BMW 4 Series Gran Coupe F36",
             "price": "20,450",
             "year": "2016",
@@ -81,7 +81,7 @@
             "img": "./Images/car10.jpg"
         },
         {
-            "id": 11,
+            "id": "204beccc-07b8-48fd-8085-83edefddaa78",
             "name": "Volkswagen Tiguan I",
             "price": "10,990",
             "year": "2011",
@@ -89,27 +89,19 @@
             "img": "./Images/car11.jpg"
         },
         {
-            "id": 12,
+            "id": "6eea8806-2c3d-4803-826d-1ff4ea09ac85",
             "name": "Chevrolet Corvette C8",
             "price": "63580",
             "year": "2021",
             "odometer": "523",
             "img": "https://media4.s-nbcnews.com/j/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.fit-760w.jpg"
-        },
-        {
-            "name": "a",
-            "price": "a",
-            "year": "a",
-            "odometer": "a",
-            "img": "a",
-            "id": "82e98b25-c622-4df3-9e4f-7e423931bfa7"
         }
     ],
     "admins": [
         {
             "name": "cristi",
             "pass": "nelu",
-            "id": 1
+            "id": "02d70d5f-f645-44c0-b068-3224edb807a0"
         },
         {
             "name": "admin",

@@ -1,6 +1,7 @@
 // json-server --watch cars.json
 // keyboard listener event pe login 59
 // click listener event pe butoanele de delete si edit din car 54 -> 73
+// onclick attribute pe login 48
 
 
 var body = document.getElementsByTagName("body")[0];
@@ -63,7 +64,9 @@ fetch('http:/localhost:3000/cars', {
 
                             deleteButton.setAttribute("src","Images/delete.png");
 
-                            deleteButton.setAttribute("onClick","deleteCar("+ carId +")");
+
+                            //deleteButton.setAttribute("onClick","deleteCar("+ carId +")");
+                            deleteButton.addEventListener("click", function(){deleteCar(carId)});
 
                             deleteButton.classList.add("deleteButton");
                             carDiv.appendChild(deleteButton);
@@ -72,7 +75,8 @@ fetch('http:/localhost:3000/cars', {
 
                             editButton.setAttribute("src", "Images/edit.png");
 
-                            editButton.setAttribute("onclick","editCar("+ carId + ")");
+                            //editButton.setAttribute("onclick","editCar("+ carId + ")");
+                            editButton.addEventListener("click", function(){editCar(carId)});
 
                             editButton.classList.add("editButton");
 
