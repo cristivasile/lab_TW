@@ -39,13 +39,15 @@ var body = document.getElementsByTagName("body")[0];
             addButton.classList.add("add");
             addButton.innerText="Creare";
             addButton.setAttribute("onClick","addUser()");
+            addButton.onclick = function(){addUser()};
 
 
             let loginButton= document.createElement("button");
             loginButton.classList.add("button");
             loginButton.classList.add("login");
             loginButton.innerText="Logare";
-            loginButton.setAttribute("onClick","tryLogin()");
+            //loginButton.setAttribute("onClick","tryLogin()");
+            loginButton.onclick = function(){tryLogin()};
 
             logTab.appendChild(userLabel);
             logTab.appendChild(userInput);
@@ -76,7 +78,8 @@ var body = document.getElementsByTagName("body")[0];
 
             let logoutButton = document.createElement("img");
             logoutButton.setAttribute("src","Images/logout.png");
-            logoutButton.setAttribute("onClick","logOut()");
+            //logoutButton.setAttribute("onClick","logOut()");
+            logoutButton.onclick=function(){logOut()};
             logoutButton.classList.add("logoutButton");
 
             logTab.appendChild(welcomeText);
@@ -134,8 +137,9 @@ var body = document.getElementsByTagName("body")[0];
             addButton.classList.add("button");
             addButton.classList.add("add");
             addButton.innerText="Inserare";
-            addButton.setAttribute("onClick","addCar()");
-
+            //addButton.setAttribute("onClick","addCar()");
+            addButton.onclick=function(){addCar()};
+            
             insertMenu.appendChild(nameLabel);
             insertMenu.appendChild(nameInput);
             insertMenu.appendChild(imgLabel);

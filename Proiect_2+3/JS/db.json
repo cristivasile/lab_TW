@@ -110,7 +110,7 @@
         }
     ],
     "logged": {
-        "state": 1,
-        "name": "admin"
+        "state": 0,
+        "name": "None"
     }
 }

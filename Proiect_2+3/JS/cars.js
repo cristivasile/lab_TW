@@ -1,7 +1,7 @@
 // json-server --watch cars.json
 // keyboard listener event pe login 59
 // click listener event pe butoanele de delete si edit din car 54 -> 73
-// onclick attribute pe login 48
+// .onclick pe login 48
 
 
 var body = document.getElementsByTagName("body")[0];
