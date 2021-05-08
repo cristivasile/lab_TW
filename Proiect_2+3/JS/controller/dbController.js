@@ -11,7 +11,7 @@ router.get("/cars", (req, res) => {
         res.status(200).send(carsList);
     }
     else {
-        res.status(404).send("No dogs found!");
+        res.status(404).send("No cars found!");
     }
 });
 
@@ -81,7 +81,7 @@ router.get("/admins/:id", (req,res) => {
     })
 
     if(checkExists === false) {
-        res.status(404).send("No car found!");
+        res.status(404).send("No admin found!");
     }
 })
 
