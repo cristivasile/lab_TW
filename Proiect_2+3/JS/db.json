@@ -9,16 +9,8 @@
             "img": "./Images/car1.jpg"
         },
         {
-            "id": "89cc8464-313c-433f-85cd-8b15b8d0b6e7",
-            "name": "Nissan Qashqai II",
-            "price": "14,480",
-            "year": "2015",
-            "odometer": "79995",
-            "img": "./Images/car2.jpg"
-        },
-        {
             "id": "344a81aa-793f-43b6-afe8-15e422152203",
-            "name": "Audi TT 8J",
+            "name": "dacia logan",
             "price": "8,900",
             "year": "2007",
             "odometer": "169000",
@@ -26,9 +18,9 @@
         },
         {
             "id": "1b6492da-4530-4299-acfd-cf23cf6eb652",
-            "name": "Audi A4 Avant B7",
-            "price": "5,199",
-            "year": "2008",
+            "name": "ford mondeo",
+            "price": "4,657,300",
+            "year": "2015",
             "odometer": "185000",
             "img": "./Images/car4.jpg"
         },
@@ -95,6 +87,14 @@
             "year": "2021",
             "odometer": "523",
             "img": "https://media4.s-nbcnews.com/j/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.fit-760w.jpg"
+        },
+        {
+            "name": "fjs",
+            "price": "aaa",
+            "year": "aaa",
+            "odometer": "aaa",
+            "img": "https://cdn.dailydriven.ro/media/4619/c/bmw-m4-1900x320.jpg",
+            "id": "8ec9f8ce-2010-4fb7-ac48-30ae0ece5607"
         }
     ],
     "admins": [
@@ -110,7 +110,7 @@
         }
     ],
     "logged": {
-        "state": 0,
-        "name": "None"
+        "state": 1,
+        "name": "cristi"
     }
 }
